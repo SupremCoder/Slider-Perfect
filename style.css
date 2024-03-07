@@ -79,3 +79,15 @@ body {
 .slider img:first-child {
     margin-left: 0px;
 }
+
+@media screen and (max-width: 900px) {
+    .slider img {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slider img {
+        width: 100%;
+    }
+}
